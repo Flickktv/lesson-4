@@ -25,9 +25,10 @@ public class Main {
         //3
 
         int year = 2021;
-        for (i = year - 200; i < year;){
-            i = i + 79;
-            System.out.println(i);
+        for (i = year - 200; i < year + 100; i++){
+            if (i % 79 == 0){
+                System.out.println(i);
+            }
         }
         System.out.println();
 
